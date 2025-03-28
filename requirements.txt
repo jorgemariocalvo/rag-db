@@ -1,0 +1,7 @@
+langchain
+langchain-community
+langchain-core
+plotly
+pandas
+psycopg2-binary
+python-dotenv
