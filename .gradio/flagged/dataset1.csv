@@ -1,0 +1,16 @@
+pregunta,output 0,output 1,timestamp
+deme la lista de productos y sus precios,"'
+Resultados:
+--------------------------------------------------------------------------------
+nombre          | precio         
+--------------------------------------------------------------------------------
+Smartphone XYZ  | 599.99         
+Laptop ABC      | 999.99         
+Camiseta Cool   | 29.99          
+Jeans Classic   | 49.99          
+Python Mastery  | 39.99          
+================================================================================","import plotly.graph_objs as go
+
+fig = go.Figure(data=[go.Bar(x=['Smartphone XYZ', 'Laptop ABC', 'Camiseta Cool', 'Jeans Classic', 'Python Mastery'], y=[599.99, 999.99, 29.99, 49.99, 39.99])])
+fig.update_layout(title='Precio de los productos', xaxis_title='Producto', yaxis_title='Precio')
+fig.show()",2025-03-28 15:19:26.248642
